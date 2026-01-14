@@ -2,14 +2,15 @@
 #define RECTANGLE_HPP
 
 class Rectangle {
-	private:
-		int width;
-		int height;
-	public;
-		void set_width(int w);
-		void set_height(int h);
-		int area();
+public:
+    void set_width(int w);
+    void set_height(int h);
+    int area();
+private:
+    int width;
+    int height;
+};
 
-	};
 #endif
+
 
