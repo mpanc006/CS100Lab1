@@ -6,6 +6,7 @@ cmake_install.cmake
 *.o
 area_calculator
 bigger_area_calculator
+shape_area_calculator
 
 # Ignore nested directories/repos if any
 CS100Lab1/
