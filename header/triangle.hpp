@@ -3,13 +3,13 @@
 
 class Triangle {
 private:
-    int base;
-    int height;
+    double base;
+    double height;
 
 public:
-    void set_base(int b);
-    void set_height(int h);
-    int area();
+    void set_base(double b);
+    void set_height(double h);
+    double area() const;
 };
 
 #endif
